@@ -48,3 +48,7 @@ int cs::ConfigurableStreambuf::sync() {
     
     return 0;
 }
+
+void cs::serialOut(const char* data, size_t len) {
+	Serial.write(data, len);
+}

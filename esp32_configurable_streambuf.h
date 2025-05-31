@@ -31,13 +31,11 @@ namespace cs {
         protected:
             virtual int_type overflow(int_type c) override;
             virtual int sync() override;
-        };
+    };
         
         // Globale Instanz-Deklaration (Definition in .cpp)
         inline ConfigurableStreambuf configurableStreambuf;
 
-		void serialOut(const char* data, size_t len) {
-			Serial.write(data, len);
-		}
+		void serialOut(const char* data, size_t len);
 
 }
