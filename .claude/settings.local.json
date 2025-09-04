@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(/C:\\Users\\chris\\Documents\\git\\hub\\esp32_configurable_streambuf/**)",
+      "Read(/C:\\Users\\chris\\Documents\\git\\hub\\esp32_configurable_streambuf/**)",
+      "Read(/C:\\Users\\chris\\Documents\\git\\hub\\esp32_configurable_streambuf/**)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
