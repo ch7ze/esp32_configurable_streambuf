@@ -1,0 +1,15 @@
+# IDE and editor folders
+.vscode/
+.claude/
+
+# Build artifacts
+build/
+.pio/
+
+# Temporary files
+*.tmp
+*.bak
+
+# OS generated files
+.DS_Store
+Thumbs.db
